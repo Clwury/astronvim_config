@@ -24,6 +24,8 @@ return {
           -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
           ["H"] = "^",
           ["L"] = "$",
+          ["<A-h>"] = { "<cmd>bprevious<cr>", desc = "Previous Buffer" },
+          ["<A-l>"] = { "<cmd>bnext<cr>", desc = "Next Buffer" },
         },
         t = {
           -- setting a mapping to false will disable it
